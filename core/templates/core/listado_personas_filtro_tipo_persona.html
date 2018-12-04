@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+
+{% block contenido%}
+
+<h1>Listado Completo de Fieles</h1>
+
+<table class="table table-hover" style="width: 80%; margin-left: 10%; margin-top: 30px;">
+        <thead>
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Edad</th>
+                <th scope="col">Telefono</th>
+                <th scope="col">Dirección</th>
+                <th scope="col">Cargo</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for p in personas %}
+            <tr>
+                <td>{{ p.nombre|add:' '|add:p.apellido }}</td>
+                <td>{{ p.edad }}</td>
+                <td>{{ p.telefono }}</td>
+                <td>{{ p.direccion }}</td>
+                <td>{{ p.tipo_persona.descripcion }}</td>
+                
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock contenido%}

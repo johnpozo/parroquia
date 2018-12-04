@@ -1,0 +1,108 @@
+nav{
+    background-color: blue;
+}
+body{
+    background-color: aqua;
+}
+
+.card{
+    background-color: cadetblue;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.carousel-item{
+    margin-left: 10%;
+    
+}
+.carousel-item, img{
+
+    width: 1000px;
+    height: 400px;
+    margin: 20px 50px;
+    
+    
+}
+.row{
+    text-align: center;
+    margin: 20px 50px;
+    margin-top: 0%;
+    
+    
+}
+#footersidebar {
+    overflow: hidden;
+    padding: 30px 30px 0px;
+    text-shadow: 0px 1px 0px #000;
+}
+h5,p{
+    color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    size: 15px;
+    margin-top: 20px;
+}
+.redessociales
+{
+    position: relative;
+    width: 340px;
+    height: 110px;
+ 
+}
+.Titulo{
+    margin: auto;
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+.info{
+    position: absolute;
+    top: 30%;
+    bottom: 0px;
+    right: 0px;
+    left: 700px;    
+}
+.logotipo{
+    width: 400px;
+    height: 150px;
+}
+
+
+
+/* ccs */
+@media only screen and (min-width: 500px){
+    body {
+        background-image:url(https://www.solofondos.com/wp-content/uploads/2015/11/Fondos-para-paginas-web-grandes.jpg); 
+        background-repeat:repeat; 
+        background-position:top left; 
+        background-attachment:fixed;
+        background-color:#355dfc;
+        }
+}
+
+body {
+    font-family:Arial, Arial, Helvetica, sans-serif; 
+     
+}
+h1, h2, h3, h4, h5, h6, #header .title { 
+    font-family:Arial, Verdada, Arial, Helvetica, sans-serif; 
+    color:#333;
+}
+.nav_main li a { 
+    font-family:Arial, Verdada, Arial, Helvetica, sans-serif; 
+}
+a:link, a:visited { color:#111; }
+
+a:hover { color:#444; }
+
+#slider, #slider ul, #slider ul li { height:600px; }
+
+.nav_top li a {
+        font-family:Arial, Verdada, Arial, Helvetica, sans-serif; 
+}
